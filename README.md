@@ -4,9 +4,8 @@ The challenge here is to **create a reusable, vanilla-React calendar component**
 
 Sound boring? Wait ‘til you’ve tried it 😉 I had to do this recently for a project of mine and I was surprised at how many twists and turns were involved.
 
-## When you're done, create a Github repo with your completed code and send me a direct-message with the link
+## Here's what UI should look like (note the fashionable dark-mode 😎):
 
-Here's what my solution looks like (note the fashionable dark-mode 😎):
 ## UI
 
 ![](https://i.imgur.com/7j84NRB.png)
