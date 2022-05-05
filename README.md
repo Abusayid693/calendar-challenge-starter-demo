@@ -20,6 +20,8 @@ Here's what my solution looks like (note the fashionable dark-mode 😎):
 
 ## Submissions must meet the following criteria:
 
+#### Note : Dont use any libraries that take care of the calendar logic! That would be cheating;
+
 1. **The calendar must “look like” a real calendar** - i.e. everything should be aligned in a 7-column grid, and the left-most column should be Sunday (or Saturday, or Monday, or whatever weekday your week starts on - I think I remember hearing that this is different in different parts of the world)
 2. **The calendar must start by showing whatever month the `startingDate` prop belongs to** - note that in the `App.js` component, we’re currently passing `today`, but there are many situations where we’d want to pass a different `startingDate` and have the calendar jump to a different month in the past/future.
 3. **The calendar must display the name of the current month, and allow the user to flip between different months** - note the “previous” and “next” buttons in the screenshot above - you’ll want to add something like these.
@@ -32,8 +34,6 @@ Here's what my solution looks like (note the fashionable dark-mode 😎):
 
 1. JavaScript’s `Date` is going to be your friend here. You can also use the Moment library if you really want to.
 2. You can tell if two `Dates` are equal by just comparing their year, month, and date and see if all of those are the same
-3. You may want to create some sort of `getDatesForMonth` function which takes `year` and a `month` arguments and returns a date object for all 28 or 29 or 30 or 31 days in the month. Just a suggestion...
-4. You’re allowed to use whatever styling libraries you want, but no libraries that take care of the calendar logic! That would be cheating ;)
 
 ## Getting the app running
 
