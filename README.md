@@ -2,16 +2,14 @@
 
 The challenge here is to **create a reusable, vanilla-React calendar component**
 
-Sound boring? Wait ‘til you’ve tried it 😉 I had to do this recently for a project of mine and I was surprised at how many twists and turns were involved.
-
 ## Here's what UI should look like (note the fashionable dark-mode 😎):
 
 ## UI
 
 ![](https://i.imgur.com/7j84NRB.png)
 
-## Add new events
-![](https://i.imgur.com/S8oHHsX.gif)
+## Add new events (pop-up should open on clicking specific date)
+![](https://i.imgur.com/1Ba3LrK.png)
 
 ## Responsive Layout
 
@@ -19,7 +17,7 @@ Sound boring? Wait ‘til you’ve tried it 😉 I had to do this recently for a
 
 ## Submissions must meet the following criteria:
 
-#### Note : Dont use any libraries that take care of the calendar logic! That would be cheating;
+#### Note : Dont use any libraries that take care of the calendar logic! That would be cheating
 
 1. **The calendar must “look like” a real calendar** - i.e. everything should be aligned in a 7-column grid, and the left-most column should be Sunday (or Saturday, or Monday, or whatever weekday your week starts on - I think I remember hearing that this is different in different parts of the world)
 2. **The calendar must start by showing whatever month the `startingDate` prop belongs to** - note that in the `App.js` component, we’re currently passing `today`, but there are many situations where we’d want to pass a different `startingDate` and have the calendar jump to a different month in the past/future.
