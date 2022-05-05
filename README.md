@@ -7,7 +7,18 @@ Sound boring? Wait ‘til you’ve tried it 😉 I had to do this recently for a
 ## When you're done, create a Github repo with your completed code and send me a direct-message with the link
 
 Here's what my solution looks like (note the fashionable dark-mode 😎):
-![completed calendar example](./public/example-screen-shot.png)
+## UI
+
+![](https://i.imgur.com/7j84NRB.png)
+
+## Add new events
+![](https://i.imgur.com/S8oHHsX.gif)
+
+![](https://i.imgur.com/1Ba3LrK.png)
+
+## Layout Responsive across most devices (except mobile -- not implemented)
+
+![](https://i.imgur.com/P94k0qs.png)
 
 ## Submissions must meet the following criteria:
 
