@@ -1,4 +1,4 @@
-# Shaun's Calendar Challenge! 🗓
+# Calendar Challenge! 🗓
 
 The challenge here is to **create a reusable, vanilla-React calendar component**
 
@@ -14,9 +14,7 @@ Here's what my solution looks like (note the fashionable dark-mode 😎):
 ## Add new events
 ![](https://i.imgur.com/S8oHHsX.gif)
 
-![](https://i.imgur.com/1Ba3LrK.png)
-
-## Layout Responsive across most devices (except mobile -- not implemented)
+## Responsive Layout
 
 ![](https://i.imgur.com/P94k0qs.png)
 
@@ -26,11 +24,9 @@ Here's what my solution looks like (note the fashionable dark-mode 😎):
 2. **The calendar must start by showing whatever month the `startingDate` prop belongs to** - note that in the `App.js` component, we’re currently passing `today`, but there are many situations where we’d want to pass a different `startingDate` and have the calendar jump to a different month in the past/future.
 3. **The calendar must display the name of the current month, and allow the user to flip between different months** - note the “previous” and “next” buttons in the screenshot above - you’ll want to add something like these.
 4. **The calendar component must take an `events` prop, and display those events on their corresponding days** - a list of fake event data is provided in `App.js` to show you the basic format of event data - look for the `fakeEvents`array and you’ll see what I mean.
+5. **Allow users to add new events to the calendar** by clicking on one of the calendar cells. I’ve already provided the `onDateClicked` prop for this purpose.
+6. **The calendar itself should occupy 100% of the width and height of its container** - this allows whatever component we display the calendar inside of to decide the calendar’s size, which can make it much easier to insert this calendar into existing layouts. You’ll see that in `App.js`, the `Calendar` component is wrapped in a `div` with `height: ‘700px’` and `width: ‘400px’`. Feel free to play around with the size here and see if you can make your calendar responsive.
 
-## And for bonus points (you don’t have to do these, but they’re fun):
-
-1. **The calendar itself should occupy 100% of the width and height of its container** - this allows whatever component we display the calendar inside of to decide the calendar’s size, which can make it much easier to insert this calendar into existing layouts. You’ll see that in `App.js`, the `Calendar` component is wrapped in a `div` with `height: ‘700px’` and `width: ‘400px’`. Feel free to play around with the size here and see if you can make your calendar responsive
-2. **Allow users to add new events to the calendar** by clicking on one of the calendar cells. I’ve already provided the `onDateClicked` prop for this purpose
 
 ## And some hints:
 
@@ -41,7 +37,7 @@ Here's what my solution looks like (note the fashionable dark-mode 😎):
 
 ## Getting the app running
 
-1. Clone this repo with: `git clone https://github.com/shaunwa/calendar-challenge-starter.git calendar-challenge`
+1. Clone this repo with: `git clone https://github.com/Abusayid693/calendar-challenge-starter-demo`
 2. `cd calendar-challenge`
 3. Install dependencies: `npm install`
 4. Run it: `npm run start`
